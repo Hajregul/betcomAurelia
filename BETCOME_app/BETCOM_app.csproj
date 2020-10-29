@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>4fb9c94b-8a51-4cfc-a01f-acfc8f965439</UserSecretsId>
+    <DockerDefaultTargetOS>Windows</DockerDefaultTargetOS>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Cors" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.SpaServices.Extensions" Version="3.1.9" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\dist\app~f075b844.bb5262352abfbd677167.chunk.js" />
+    <None Include="wwwroot\dist\favicon.ico" />
+    <None Include="wwwroot\dist\index.html" />
+    <None Include="wwwroot\dist\runtime~app.bb5262352abfbd677167.bundle.js" />
+    <None Include="wwwroot\dist\vendors~0ba1d959.bb5262352abfbd677167.chunk.js" />
+    <None Include="wwwroot\dist\vendors~2a42e354.bb5262352abfbd677167.chunk.js" />
+    <None Include="wwwroot\dist\vendors~50e8d500.bb5262352abfbd677167.chunk.js" />
+    <None Include="wwwroot\dist\vendors~556c66f2.bb5262352abfbd677167.chunk.js" />
+    <None Include="wwwroot\dist\vendors~72fdf3f2.bb5262352abfbd677167.chunk.js" />
+    <None Include="wwwroot\dist\vendors~9e0f4621.bb5262352abfbd677167.chunk.js" />
+    <None Include="wwwroot\dist\vendors~bdd45853.bb5262352abfbd677167.chunk.js" />
+    <None Include="wwwroot\dist\vendors~ecff2e3d.bb5262352abfbd677167.chunk.js" />
+  </ItemGroup>
+
+  <ProjectExtensions><VisualStudio><UserProperties properties_4launchsettings_1json__JsonSchema="https://docs.grdev.net/enterprise/admin/schema/gradle-enterprise-config-schema-1.json" /></VisualStudio></ProjectExtensions>
+
+
+</Project>
